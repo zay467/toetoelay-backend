@@ -10,3 +10,5 @@ services:
     build:
       context: ./
     image: url-shortener-server
+    ports:
+      - 8000:8000
